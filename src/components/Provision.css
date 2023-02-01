@@ -1,0 +1,18 @@
+.provision {
+    display: flex;
+    cursor: pointer;
+}
+
+.provision .row {
+    display: flex;
+    margin-top: 50px;
+}
+
+.provision .column {
+    padding-left: 170px;
+    display: flex;
+}
+
+.provision h3 {
+    padding-left: 15px;
+}

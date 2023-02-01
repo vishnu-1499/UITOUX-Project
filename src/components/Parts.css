@@ -1,0 +1,30 @@
+.parts {
+    padding-top: 50px;
+    display: flex;
+    width: 1350px;
+    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.partList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.partItem {
+    display: inline;
+    height: 140px;
+    width: 155px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.partItem div {
+    width: 96px;
+    height: 96px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

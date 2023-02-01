@@ -1,0 +1,122 @@
+.navbar {
+    width: 100%;
+    height: 190px;
+    background-color: whitesmoke;
+}
+
+    /* Top Styles */
+.top {
+    height: 40px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.top a {
+    color: gray;
+    margin: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+.top .compare {
+    color: gray;
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    padding-left: 500px;
+}
+
+.top h4 select {
+    border: none;
+    color: black;
+}
+
+    /* Mid Styles */
+.mid {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.mid img {
+    width: 150px;
+    height: 70px;
+}
+
+ form {
+    padding-left: 15px;
+}
+
+form select {
+    background-color: #FFE15D;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+ form select img {
+    height: auto;
+    width: 25px;
+    color: black;
+} 
+
+ form input { 
+    padding-left: 15px;
+    border: none;
+    height: 30px;
+    width: 250px;
+}
+
+.image img {
+    height: 3rem;
+    width: 2rem;
+    padding-left: 350px;
+}
+.image1 img {
+    display: inline-flex;
+    height: 3rem;
+    width: 2rem;
+    padding-left: 30px;
+}
+
+.image1 h3 {
+    display: contents;
+    align-items: center;
+}
+
+            /* Bottom Styles */
+.bottom {
+    height: 40px;
+}
+
+.bottom button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    justify-content: space-between;
+    font-size: small;
+    cursor: pointer;
+}
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+.bottom a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.bottom p {
+    display: flex;
+    padding-left: 400px;
+    color: gray;
+    margin-top: 10px;
+}
+.bottom span {
+    color: black;
+}

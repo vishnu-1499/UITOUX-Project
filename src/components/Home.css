@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    width: 1350px;
+    height: 500px;
+    margin-left: 6%;
+    margin-top: 2%;
+    background-size: cover;
+}
+.header{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.header h2 {
+    background-color: #FFE15D;
+    width: 110px;
+    padding: 5px;
+    display: flex;
+    flex-direction: initial;
+}
+.header h1 {
+    display: flex;
+    font-size: xx-large;
+    flex-direction: initial;
+}
+.header p {
+    font-size: large;
+    flex-direction: initial;
+}
+.header button {
+    display: flex;
+    flex-direction: initial;
+    padding: 15px;
+    font-size: x-large;
+    border: none;
+    background-color: lightgreen;
+}

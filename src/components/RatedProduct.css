@@ -1,0 +1,41 @@
+.ratedProduct {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+.ratedProduct h2 {
+    display: inline-flex;
+    margin-right: 320px;
+}
+  
+.ratedProductList {
+    width: 1350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ratedProductItem h4 {
+    padding-left: 15px;
+}
+.ratedProductItem p {
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight: bolder;
+}
+  
+.ratedProductItem {
+    display: flex;
+    text-align: start;
+    width: 410px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    justify-content: left;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+  
+.ratedProductItem div {
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}

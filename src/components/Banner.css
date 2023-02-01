@@ -1,0 +1,57 @@
+.banner {
+    margin-top: 70px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.leftBanner {
+    width: 650px;
+    height: 230px;
+    padding-left: 20px;
+}
+
+.leftBanner h2 {
+    color: #FFE15D;
+    display: flex;
+    font-weight: bolder;
+}
+.leftBanner p {
+    color: white;
+    display: flex;
+    font-weight: bold;
+}
+.leftBanner button {
+    background-color: red;
+    color: white;
+    display: flex;
+    font-size: medium;
+    padding: 5px;
+    border: none;
+}
+
+.rightBanner {
+    width: 650px;
+    height: 230px;
+    margin-left: 15px;
+    padding-left: 20px;
+}
+.rightBanner h2 {
+    background-color: #FFE15D;
+    color: black;
+    width: 180px;
+    display: flex;
+    font-weight: bolder;
+}
+.rightBanner p {
+    color: white;
+    display: flex;
+    font-weight: bold;
+}
+.rightBanner button {
+    background-color: red;
+    color: white;
+    display: flex;
+    font-size: medium;
+    padding: 5px;
+    border: none;
+}
